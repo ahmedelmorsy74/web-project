@@ -123,6 +123,7 @@ const calcDisplayBalance = function (acc) {
   labelBalance.textContent = `${acc.balance.toFixed(2)}EUR`;
 };
 
+//To Customize The UserName
 const computeUsername = function (accs) {
   accs.forEach(function (acc) {
     acc.username = acc.owner
